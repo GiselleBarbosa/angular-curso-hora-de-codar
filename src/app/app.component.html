@@ -1,16 +1,22 @@
-<h1>Hello Angular appcomponent</h1>
+<div class="class">
+  <h1>Hello World Angular!</h1>
+  <h2>Testando H2</h2>
+  <p>Alguma coisa</p>
+  <a href="#">Clique Aqui</a>
+</div>
 
-<h2>Titulo appcomponent</h2>
+<div class="class">
+  <app-first-component></app-first-component>
+</div>
 
-<p>paragrafo appcomponent</p>
+<div class="class">
+  <app-parent-data [name]="userName" [detalhes]="detalhes"></app-parent-data>
+</div>
 
-<app-first-component></app-first-component>
+<div class="class">
+  <app-directives></app-directives>
+</div>
 
-<hr>
-
-<app-parent-data [filho]="userName" [idade]="idade" [detalhes]="detalhes">
-</app-parent-data>
-
-<hr>
-
-<app-directives></app-directives>
+<div class="class">
+  <app-if-render></app-if-render>
+</div>

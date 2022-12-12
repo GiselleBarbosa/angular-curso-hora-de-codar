@@ -7,9 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ParentDataComponent implements OnInit {
 
-  @Input() filho: string = '';
+  @Input() name: string = '';
   @Input() detalhes: any;
-  @Input() idade: number = 0;
 
   constructor() { }
 

@@ -7,12 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstComponentComponent implements OnInit {
 
-  title = 'Titulo no first component';
-
+  title = 'Giselle';
   nome: string = 'Giselle';
   idade: number = 33;
   job: string = "Developer";
-  hobbies: string[] = ['jogar video game', 'estudar', 'assistir filmes e series'];
+  hobbies: string[] = ['Video-games', 'estudar', 'assistir filmes e series'];
 
   videoGame = {
     plataforma: 'Playstation',

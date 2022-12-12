@@ -9,11 +9,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   userName = 'Giselle Barbosa'
-  idade: number = 33;
 
   detalhes = {
     role: 'Developer frontend',
     email: 'email@mail.com',
-    level: 'Junior'
+    level: 'estagiaria'
   }
 }
