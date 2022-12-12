@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./if-render.component.scss']
 })
 export class IfRenderComponent implements OnInit {
+  canShow: boolean = true;
 
+  userName = 'Marcos';
+  // userName = 'Giselle';
   constructor() { }
 
   ngOnInit(): void {

@@ -1,1 +1,20 @@
-  <p>if-render</p>
+<div *ngIf="canShow">
+  <h1>Renderização com Ng-If Ng-Else Ng-Template</h1>
+
+  <p *ngIf="userName === 'Giselle' ; else nameNotFound">
+    Este conteudo esta sendo acesso por:
+    <strong>{{ userName }}</strong>
+  </p>
+
+<!--  Resposta
+  <h4 *ngIf="userName !== 'Giselle'">
+    <p>Acesso Negado</p>
+  </h4> -->
+
+  <!-- Modo Correto -->
+<ng-template #nameNotFound>
+  <strong>{{ userName }}</strong> <p>Acesso Negado</p>
+</ng-template>
+
+
+</div>
