@@ -18,7 +18,6 @@ export class FirstComponentComponent implements OnInit {
     plataforma: 'Playstation',
     versao: 4,
     marca: 'Sony'
-
   }
 
   constructor() { }

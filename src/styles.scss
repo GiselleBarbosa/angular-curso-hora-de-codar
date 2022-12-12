@@ -1,14 +1,17 @@
 * {
-  padding: 0;
-  margin: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
-  line-height: 2rem;
+  line-height: 0.8rem;
 }
 
-h1{
+h1 {
   background-color: rgb(201, 174, 227);
   padding: 15px;
   font-size: 24px;
+  font-weight: 200;
 }
 
+h2 {
+  font-weight: 200;
+  background-color: cadetblue;
+  padding: 15px;
+}

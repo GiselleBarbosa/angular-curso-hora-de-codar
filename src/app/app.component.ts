@@ -5,6 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
-  title = 'curso-angular';
+
+  userName = 'Giselle Barbosa'
+  idade: number = 33;
+
+  detalhes = {
+    role: 'Developer frontend',
+    email: 'email@mail.com',
+    level: 'Junior'
+  }
 }
