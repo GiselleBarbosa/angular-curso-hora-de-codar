@@ -1,0 +1,25 @@
+<p>Renderização de lista - #12</p>
+
+<table class="table table-bordered table-danger">
+  <thead>My Favorite Games</thead>
+  
+  <tbody>
+
+   <tr>#</tr>
+
+    <tr>
+      <th>Game</th>
+      <th>Plataform</th>
+      <th>Avaliação</th>
+      <th>Genero</th>
+    </tr>
+
+    <tr *ngFor="let game of favoriteGames">
+      <td>{{ game.name }}</td>
+      <td>{{ game.plataform }}</td>
+      <td>{{ game.rating }}</td>
+      <td>{{ game.genre }}</td>
+    </tr>
+    
+  </tbody>
+</table>
