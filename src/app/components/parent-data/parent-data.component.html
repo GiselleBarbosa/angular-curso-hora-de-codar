@@ -4,11 +4,20 @@
   {{ name }}
 </p>
 
-<p>
-  <strong>Email</strong>:
-  {{ detalhes.email }}
-</p>
-
-<p><strong>Nivel</strong>:
-  {{ detalhes.level }}
-</p>
+<div class="table">
+  <thead style="font-size: 20px; font-weight: 600;">Funcionários</thead>
+  <tbody>
+    <tr>
+      <th>Nome</th>
+      <th>Email</th>
+      <th>Cargo</th> 
+      <th>Senioridade</th>
+    </tr>
+    <tr *ngFor="let detalhe of detalhes">
+      <td>{{ detalhe.nome }}</td>
+      <td>{{ detalhe.email }}</td>
+      <td>{{ detalhe.senioridade }}</td>
+      <td>{{ detalhe.cargo }}</td>
+    </tr>
+  </tbody>
+</div>
