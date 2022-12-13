@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-emmiter',
@@ -8,7 +8,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export class EmmiterComponent implements OnInit {
 
   myNumber: number = 0;
-  @Input() pais = ''; 
+  max: number = 100;
+
+  @Input() pais = '';
 
   constructor () { }
 
@@ -16,7 +18,7 @@ export class EmmiterComponent implements OnInit {
   }
 
   onChangeNumber() {
-    this.myNumber = Math.floor(Math.random() * 10)
+    this.myNumber = Math.floor(Math.random() * this.max);
   }
 
 }

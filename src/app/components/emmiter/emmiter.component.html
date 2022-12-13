@@ -1,16 +1,13 @@
-<p>Emitindo eventos - #11</p>
+<p>Emitindo eventos Output( )  - #11 </p>
 <h1 style="background-color: aliceblue; 
       font-size: 25px;">O número é:
   <input class="col-2 text-center" type="text" placeholder="{{ myNumber }}">
 </h1>
 
+<br>
+
+<app-change-number (changeNumber)="onChangeNumber()"></app-change-number>
 
 <br>
 
-<app-change-number (changeNumber)="onChangeNumber()">
-</app-change-number>
-
-<br>
-
-<h1 class="mt-3" style="background-color: aliceblue;">Teste Input</h1>
-<p>Pais: {{ pais }}</p>
+<h5 class="mt-3" style="background-color: aliceblue;">Pais: {{ pais }} (Input) </h5>
