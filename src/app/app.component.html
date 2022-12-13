@@ -11,7 +11,11 @@
 </div>
 
 <div class="class">
-  <app-parent-data [name]="userName" [detalhes]="detalhes"></app-parent-data>
+  <p>Compartilhamento de dados - #07</p>
+  <app-parent-data 
+  [name]="userName" 
+  [detalhes]="detalhes">
+</app-parent-data>
 </div>
 
 <div class="class">
@@ -27,5 +31,5 @@
 </div>
 
 <div class="class">
-  <app-emmiter></app-emmiter>
+  <app-emmiter [pais]="nacionalidade"></app-emmiter>
 </div>

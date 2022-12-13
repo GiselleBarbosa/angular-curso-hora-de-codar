@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-emmiter',
@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EmmiterComponent implements OnInit {
 
   myNumber: number = 0;
+  @Input() pais = ''; 
 
   constructor () { }
 
