@@ -1,2 +1,8 @@
 <p>Emitindo eventos - #11</p>
-<h1>O número é: </h1>
+<h1 style="background-color: aliceblue; 
+      font-size: 25px;">O número é:
+  <input class="col-2 text-center" type="text" placeholder="{{ myNumber }}">
+</h1>
+
+<app-change-number (changeNumber)="onChangeNumber()">
+</app-change-number>

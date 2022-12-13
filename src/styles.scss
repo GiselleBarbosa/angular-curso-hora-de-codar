@@ -8,7 +8,7 @@ p{
 }
 
 h1 {
-  background-color: rgb(201, 174, 227);
+  background-color: rgb(174, 191, 227);
   padding: 5px;
   font-size: 22px;
   font-weight: 200;
@@ -20,7 +20,22 @@ h2 {
 }
 
 a {
-  color: orange;
+  color: rgb(52, 194, 76);
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  background: rgb(167, 185, 245);
+  border-radius: 5px;
+  border: 1px solid rgb(42, 173, 248);
+}
+a:hover {
+  color: rgb(127, 111, 216);
+  color: white;
+  transition: 2s;
+  text-decoration: none;
+  padding: 7px;
+  background: rgb(51, 81, 179);
+  border-radius: 5px;  border: 1px solid rgb(57, 135, 165);
 }
 
 body {
@@ -28,7 +43,7 @@ body {
 }
 
 .class {
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid rgb(98, 16, 136);
   padding: 1.2em;
   margin-bottom: 1em;
 }

@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmmiterComponent implements OnInit {
 
-  constructor() { }
+  myNumber: number = 0;
+
+  constructor () { }
 
   ngOnInit(): void {
+  }
+
+  onChangeNumber() {
+    this.myNumber = Math.floor(Math.random() * 10)
   }
 
 }
