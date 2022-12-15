@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Games } from "../card-filho/card-filho.component";
+import { Games } from "src/app/Games";
 
 @Component({
   selector: 'app-card-pai',

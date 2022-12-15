@@ -7,14 +7,14 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class ChangeNumberComponent implements OnInit {
 
-  @Output() changeNumber: EventEmitter<any> = new EventEmitter()
+  @Output() changeNumber: EventEmitter<any> = new EventEmitter();
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { }
+
+  handleClick() {
+    this.changeNumber.emit();
   }
 
-  handleClick(){
-   this.changeNumber.emit();
-  }
 }

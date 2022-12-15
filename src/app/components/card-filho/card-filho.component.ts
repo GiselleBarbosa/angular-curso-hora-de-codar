@@ -1,12 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
-export interface Games {
-  img: string,
-  title: string,
-  textCategory: string,
-  link: string,
-  category: string;
-}
+import { Games } from "src/app/Games";
 
 @Component({
   selector: 'app-card-filho',
@@ -21,5 +14,6 @@ export class CardFilhoComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }

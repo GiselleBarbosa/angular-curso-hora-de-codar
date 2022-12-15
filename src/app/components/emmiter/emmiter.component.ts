@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, Output } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-emmiter',
@@ -8,17 +8,16 @@ import { Component, Input, OnInit, Output } from '@angular/core';
 export class EmmiterComponent implements OnInit {
 
   myNumber: number = 0;
-  max: number = 100;
 
+  // Input vindo do appcomponente
   @Input() pais = '';
 
-  constructor () { }
+  constructor() { }
 
   ngOnInit(): void {
   }
 
   onChangeNumber() {
-    this.myNumber = Math.floor(Math.random() * this.max);
+    this.myNumber = Math.floor(Math.random() * 100);
   }
-
 }
