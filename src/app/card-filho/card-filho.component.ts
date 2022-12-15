@@ -3,8 +3,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export interface Games {
   img: string,
   title: string,
-  text: string,
-  link: string;
+  textCategory: string,
+  link: string,
+  category: string;
 }
 
 @Component({
@@ -15,8 +16,8 @@ export interface Games {
 export class CardFilhoComponent implements OnInit {
 
   @Input() games: Games[] = [];
-  
-   constructor() { }
+
+  constructor() { }
 
   ngOnInit(): void {
   }

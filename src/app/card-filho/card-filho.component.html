@@ -1,16 +1,16 @@
 <!-- Inicio InfoGames  -->
+<h1>Prática do Input com Cards Dinâmicos</h1>
 <div class="container">
-  <div class="row row-cols-3 row-cols-md-3 g-3 text-center">
+  <div class="row row-cols-3 row-cols-md-4 g-3 text-center">
     <div *ngFor="let game of games">
-
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 17rem;">
         <img src="{{ game.img }}" class="card-img d-flex align-self-center mt-3" alt="...">
         <div class="card-body">
-          <h5 class="card-title">{{ game.title }}</h5>
-          <h5 class="card-title">{{ game.text }}</h5>
-          <p class="card-text">{{ game.link }}</p>
+          <h4 class="card-title">{{ game.title }}</h4>
+          <h6 class="card-title">{{ game.category }}: {{ game.textCategory }}</h6>
+          <button class="btn btn-primary sm-1">{{ game.link }}</button>
         </div>
       </div>
-    </div>
-  </div>
+      </div>
+   </div>   
 </div>

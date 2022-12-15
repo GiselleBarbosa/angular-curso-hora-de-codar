@@ -12,44 +12,51 @@ export class CardPaiComponent implements OnInit {
     {
       img: "../../../assets/ffx.jpg",
       title: "Final Fantasy X",
-      text: "teste",
-      link: "teste"
+      category: "Categoria",
+      textCategory: "RPG",
+      link: "Comprar",
     },
     {
       img: "../../../assets/re4.jpg",
       title: "Resident Evil 4",
-      text: "teste",
-      link: "teste"
+      category: "Categoria",
+      link: "Comprar",
+      textCategory: "RPG",
     },
     {
       img: "../../../assets/gow.jpg",
       title: "God of War",
-      text: "teste",
-      link: "teste"
+      category: "Categoria",
+      link: "Comprar",
+      textCategory: "RPG",
     },
     {
       img: "../../../assets/mk.jpg",
       title: "Final Fantasy X",
-      text: "teste",
-      link: "teste"
+      category: "Categoria",
+      link: "Comprar",
+      textCategory: "Fight",
     }, 
       {
       img: "../../../assets/sonic.jpg",
       title: "Sonic HedgeHog",
-      text: "teste",
-      link: "teste"
+      category: "Categoria",
+      link: "Comprar",
+      textCategory: "Adventure",
     },
     {
       img: "../../../assets/destiny.jpg",
       title: "Destiny",
-      text: "teste",
-      link: "teste"
+      category: "Categoria",
+      link: "Comprar",
+      textCategory: "Action, Adventure",
     }, 
     {
       img: "../../../assets/nfsu2.webp",
-      title: "Need for Speed Underground 2",
-      text: "teste",
-      link: "teste"
+      title: "Need for Speed U2",
+      category: "Categoria",
+      link: "Comprar",
+      textCategory: "Racing",
     },
   ];
 
