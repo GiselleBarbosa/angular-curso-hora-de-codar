@@ -11,6 +11,8 @@ import { EventsComponent } from './components/eventos/events.component';
 import { EmmiterComponent } from './components/emmiter/emmiter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { CardFilhoComponent } from './card-filho/card-filho.component';
+import { CardPaiComponent } from './card-pai/card-pai.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
     EventsComponent,
     EmmiterComponent,
     ChangeNumberComponent,
-    ListRenderComponent
+    ListRenderComponent,
+    CardFilhoComponent,
+    CardPaiComponent
   ],
   imports: [
     BrowserModule,

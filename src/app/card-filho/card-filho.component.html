@@ -1,0 +1,16 @@
+<!-- Inicio InfoGames  -->
+<div class="container">
+  <div class="row row-cols-3 row-cols-md-3 g-3 text-center">
+    <div *ngFor="let game of games">
+
+      <div class="card" style="width: 18rem;">
+        <img src="{{ game.img }}" class="card-img d-flex align-self-center mt-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ game.title }}</h5>
+          <h5 class="card-title">{{ game.text }}</h5>
+          <p class="card-text">{{ game.link }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
