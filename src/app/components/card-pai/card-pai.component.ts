@@ -36,8 +36,8 @@ export class CardPaiComponent implements OnInit {
       category: "Categoria",
       link: "Comprar",
       textCategory: "Fight",
-    }, 
-      {
+    },
+    {
       img: "../../../assets/sonic.jpg",
       title: "Sonic HedgeHog",
       category: "Categoria",
@@ -50,7 +50,7 @@ export class CardPaiComponent implements OnInit {
       category: "Categoria",
       link: "Comprar",
       textCategory: "Action, Adventure",
-    }, 
+    },
     {
       img: "../../../assets/nfsu2.webp",
       title: "Need for Speed U2",
