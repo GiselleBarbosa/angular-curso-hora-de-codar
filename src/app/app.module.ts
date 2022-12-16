@@ -13,6 +13,8 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { CardFilhoComponent } from './components/card-filho/card-filho.component';
 import { CardPaiComponent } from './components/card-pai/card-pai.component';
+import { PipesComponent } from './components/pipes/pipes.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { CardPaiComponent } from './components/card-pai/card-pai.component';
     ChangeNumberComponent,
     ListRenderComponent,
     CardFilhoComponent,
-    CardPaiComponent
+    CardPaiComponent,
+    PipesComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
