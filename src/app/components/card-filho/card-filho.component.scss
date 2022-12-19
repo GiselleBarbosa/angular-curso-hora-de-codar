@@ -1,5 +1,9 @@
-img{
+img {
   width: 200px;
   height: 270px;
-  
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: row;
 }

@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TwoWayBindingComponent implements OnInit {
 
+  title: string = "two way data binding";
+  
+  myNgModel: string = "";
+
   constructor() { }
 
   ngOnInit(): void {

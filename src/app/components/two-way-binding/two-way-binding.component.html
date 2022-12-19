@@ -1,1 +1,18 @@
-<p>two-way-binding works!</p>
+<h1>{{ title | titlecase }}</h1>
+
+<div class="container col-md-5 align-content-lg-start align-content-sm-start">
+  <form action="">
+    <label for="">Digite um Nome:</label>
+    <div class="input-group md-5">
+      <input type="text" 
+      class="form-control" 
+      [(ngModel)]="myNgModel" 
+      name="myNgModel">
+      <input type="submit" 
+      class="form-control  col-2" value="Enviar">
+    </div>
+  </form>
+  <div class="mt-3 col-6" *ngIf="myNgModel !== ''">
+    <label>Nome Digitado: </label><input type="text" class="form-control" value="{{ myNgModel }}">
+  </div>
+</div>
