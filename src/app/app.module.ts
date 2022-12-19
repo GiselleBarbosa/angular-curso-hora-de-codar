@@ -13,6 +13,7 @@ import { EventsComponent } from './components/eventos/events.component';
 import { EmmiterComponent } from './components/emmiter/emmiter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { ListRender2Component } from './components/list-render2/list-render2.component';
 import { CardFilhoComponent } from './components/card-filho/card-filho.component';
 import { CardPaiComponent } from './components/card-pai/card-pai.component';
 import { PipesComponent } from './components/pipes/pipes.component';
@@ -29,6 +30,7 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     EmmiterComponent,
     ChangeNumberComponent,
     ListRenderComponent,
+    ListRender2Component,
     CardFilhoComponent,
     CardPaiComponent,
     PipesComponent,
