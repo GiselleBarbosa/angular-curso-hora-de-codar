@@ -26,8 +26,8 @@ export class ListRender2Component implements OnInit, OnDestroy {
   }
 
   removeAnimal(animal: Animal) {
-    console.log('Removendo animal...');
-    this.animals = this.listService.remove(this.animals, animal);
+    this.animals = this.animals.filter((a) => animal.name !== a.name);
+    this.listService.remove(animal.id).subscribe()
   }
 
   getAnimals(): void {

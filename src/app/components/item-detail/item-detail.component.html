@@ -1,5 +1,5 @@
-<div class="card" style="width: 18rem;">
-  <img src="../../../assets/dog.jpg" class="card-img-top" alt="dog">
+<div *ngIf="animal" class="card" style="width: 18rem;">
+  <img src="{{ animal.img }}" class="card-img-top" alt="dog">
   <div class="card-body" *ngIf="animal">
     <h5 class="card-title">id: {{ animal.id }} - {{animal.name}}</h5>
     <h6>Tipo: {{animal.type}}</h6>
