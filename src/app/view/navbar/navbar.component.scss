@@ -1,17 +1,11 @@
+.container-fluid{
+  display: flex;
+  justify-content: space-around;
+
+}
+
 a {
-  text-decoration: none;
-  background-color: #fff;
-  border-color: rgba(232, 232, 232, 0.466);
-  width: fit-content;
-  block-size: fit-content;
+  background-color: aliceblue;
+  border-color: transparent;
 }
 
-a:hover {
-  background-color: rgb(243, 243, 243);
-}
-
-li {
-  margin-right: 1%;
-  width: fit-content;
-  block-size: fit-content;
-}

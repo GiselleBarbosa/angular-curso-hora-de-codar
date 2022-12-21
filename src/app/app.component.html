@@ -1,6 +1,11 @@
 <app-navbar></app-navbar>
 
 <div class="class">
+  <h3 style="background-color: rgb(190, 208, 208);">Componente vindo do router-outlet</h3>
+<router-outlet></router-outlet>
+
+</div>
+<div class="class">
   <p>CSS no Angular - #06</p>
   <h1>Hello World Angular!</h1>
   <a href="#">Clique Aqui</a>
@@ -12,7 +17,6 @@
 
 <div class="class">
   <p>Compartilhamento de dados - #07</p>
-
   <app-parent-data [name]="userName" [detalhes]="tabelaUsuarios">
   </app-parent-data>
 </div>
@@ -53,4 +57,3 @@
   <app-two-way-binding></app-two-way-binding>
 </div>
 
-<router-outlet></router-outlet>

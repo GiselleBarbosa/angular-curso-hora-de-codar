@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from "@angular/forms";
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http'
 
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
@@ -19,7 +19,7 @@ import { CardPaiComponent } from './components/card-pai/card-pai.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { NavbarComponent } from './view/navbar/navbar.component';
-
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +41,8 @@ import { NavbarComponent } from './view/navbar/navbar.component';
   imports: [
     BrowserModule,
     AppRoutingModule, 
-    FormsModule
+    FormsModule,
+    HttpClientModule  
   ],
   providers: [],
   bootstrap: [AppComponent]
