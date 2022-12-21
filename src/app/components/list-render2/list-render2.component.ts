@@ -31,7 +31,7 @@ export class ListRender2Component implements OnInit, OnDestroy {
   }
 
   getAnimals(): void {
-    this.listService.getAll().subscribe((animals) => (this.animals = animals));
+    this.inscricao = this.listService.getAll().subscribe((animals) => (this.animals = animals));
   }
 
   ngOnDestroy(): void {

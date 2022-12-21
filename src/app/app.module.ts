@@ -19,6 +19,7 @@ import { CardPaiComponent } from './components/card-pai/card-pai.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { NavbarComponent } from './view/navbar/navbar.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
  
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { NavbarComponent } from './view/navbar/navbar.component';
     PipesComponent,
     TwoWayBindingComponent,
     NavbarComponent,
+    ItemDetailComponent,
   ],
   imports: [
     BrowserModule,

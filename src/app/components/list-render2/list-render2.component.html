@@ -1,9 +1,9 @@
 <h1>Animais:</h1>
 <ul>
   <div *ngFor="let animal of animals" class="mb-2">
-    Nome: {{ animal.name }} - tipo: {{ animal.type  }}
-    <button class="btn btn-secondary ms-2 me-3 col-2" (click)="showAge(animal)">Show Age</button>
-    <button class="btn btn-danger" (click)="removeAnimal(animal)">Excluir</button>
+    Nome: <a routerLink="/list2/{{ animal.id }}">{{ animal.name }} </a> - tipo: {{ animal.type }}
+      <button class="btn btn-secondary ms-2 me-3 col-2" (click)="showAge(animal)">Show Age</button>
+      <button class="btn btn-danger" (click)="removeAnimal(animal)">Excluir</button>
   </div>
 
 </ul>

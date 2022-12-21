@@ -12,7 +12,7 @@ import { CardPaiComponent } from './components/card-pai/card-pai.component';
 import { CardFilhoComponent } from './components/card-filho/card-filho.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
-
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 const routes: Routes = [
   { path: '', pathMatch: "full", redirectTo: 'home' },
@@ -22,12 +22,13 @@ const routes: Routes = [
   { path: 'if-render', component: IfRenderComponent },
   { path: 'events', component: EventsComponent },
   { path: 'emmiter', component: EmmiterComponent },
-  { path: 'list', component: ListRenderComponent },
   { path: 'list2', component: ListRender2Component },
   { path: 'card-pai', component: CardPaiComponent },
   { path: 'card-filho', component: CardFilhoComponent },
   { path: 'pipes', component: PipesComponent },
   { path: 'data-bindind', component: TwoWayBindingComponent },
+  { path: 'list', component: ListRenderComponent },
+  { path: 'list2/:id', component: ItemDetailComponent },
 ];
 
 @NgModule({
